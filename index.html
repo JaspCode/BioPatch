@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bio Patch Perú</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="text-stone-900">
+
+  <!-- HEADER FIJO -->
+  <header class="fixed top-0 left-0 w-full bg-[#b5c197] shadow-md z-50">
+    <div class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+      <div class="flex items-center space-x-4">
+        <div class="logo-svg" aria-label="Bio Patch Perú logo">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false">
+            <rect width="64" height="64" rx="14" fill="#445822"/>
+            <path fill="#92A974" d="M44 20a12 12 0 1 0-18 10v6a6 6 0 0 0 12 0v-6a12 12 0 0 0 6-10Z"/>
+            <path fill="#244018" d="M38 32a6 6 0 1 1-12 0v-6a12 12 0 0 1 12-10 12 12 0 0 1 0 16Z"/>
+            <circle cx="32" cy="28" r="2" fill="#A6CF7B"/>
+          </svg>
+        </div>
+        <div class="text-2xl font-extrabold leading-tight text-stone-900 select-none">
+          Bio<br />Patch<br />Perú
+        </div>
+      </div>
+
+      <nav class="flex space-x-2 text-sm leading-none font-semibold tracking-wide select-none">
+        <a href="#inicio" class="active">INICIO</a>
+        <a href="#nuestro">CONOCE NUESTRO PRODUCTO</a>
+        <a href="#ofrece">QUE TE OFRECEMOS</a>
+        <a href="#elegir">¿POR QUÉ ELEGIR BIOPATCH PERÚ?</a>
+        <a href="#quien">¿PARA QUIÉN ES?</a>
+      </nav>
+
+      <div class="flex space-x-4 items-center text-sm font-semibold select-none">
+        <button class="btn-primary">REGISTRO</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="pt-32 grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto px-6 py-12 text-stone-900">
+    <div>
+      <p class="text-white font-semibold uppercase tracking-widest mb-2">
+        "SALUD NATURAL, BIENESTAR TOTAL. BIOPATCH PERÚ: TU PARCHE, TU CAMBIO."
+      </p>
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight max-w-3xl">
+        BIENVENIDOS A<br />BIO PATCH PERÚ
+      </h1>
+      <p class="text-stone-900 font-semibold max-w-xl mb-8">
+        "Mejorar la salud cardiovascular y metabólica de las personas a través de soluciones innovadoras, naturales y sostenibles, promoviendo el autocuidado, la prevención y el bienestar integral, con productos de alta calidad elaborados a partir de la biodiversidad peruana."
+      </p>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="img/foto1.png" alt="Personas usando el Bio Patch Perú" 
+        onerror="handleImageError(this)" 
+        class="rounded-md max-w-[500px] w-full h-auto" />
+    </div>
+  </section>
+
+  <!-- CONOCE NUESTRO PRODUCTO -->
+<!-- CONOCE NUESTRO PRODUCTO -->
+<section id="nuestro" class="pt-32 py-16 px-6 bg-[#e6e8d3] rounded-lg">
+  <div class="max-w-7xl mx-auto text-center mb-12">
+    <h2 class="text-4xl font-extrabold mb-4 text-stone-900">¿Qué es BioPatch Perú?</h2>
+    <p class="text-lg text-stone-700 max-w-3xl mx-auto">
+      BioPatch Perú es un parche transdérmico biodegradable que libera microdosis de extractos naturales peruanos <strong>(maca y camu camu)</strong> a través de la piel.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+
+    <!-- Card ¿Cómo funciona? -->
+    <div class="rounded-2xl p-6 text-left hover:scale-105 hover:shadow-lg transition-transform bg-[#f2f3e8]">
+      <div class="flex justify-center mb-4 text-[#445822]">
+        <!-- Icono funcionamiento -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-[#445822] mb-4">¿Cómo funciona?</h3>
+      <p class="text-stone-700 leading-relaxed">
+        Se coloca en el <strong>abdomen, brazo, muslo o espalda</strong> y actúa durante <strong>24 horas</strong>, ayudando a regular el metabolismo y mejorar la salud cardiovascular.
+      </p>
+    </div>
+
+    <!-- Card ¿De qué está hecho? -->
+    <div class="rounded-2xl p-6 text-left hover:scale-105 hover:shadow-lg transition-transform bg-[#f2f3e8]">
+      <div class="flex justify-center mb-4 text-[#445822]">
+        <!-- Icono composición -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18"/>
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-[#445822] mb-4">¿De qué está hecho?</h3>
+      <ul class="list-disc list-inside text-stone-700 leading-relaxed space-y-2">
+        <li>Matriz de tela médica biodegradable</li>
+        <li>Adhesivos hipoalergénicos</li>
+        <li>Microagujas simuladas para mejor absorción (sin dolor)</li>
+        <li>Extractos naturales de <strong>maca</strong> y <strong>camu camu</strong>, seleccionados por su pureza y eficacia</li>
+        <li>Empaque ecológico y educativo</li>
+      </ul>
+    </div>
+
+    <!-- Card Beneficios clave -->
+    <div class="rounded-2xl p-6 text-left hover:scale-105 hover:shadow-lg transition-transform bg-[#f2f3e8]">
+      <div class="flex justify-center mb-4 text-[#445822]">
+        <!-- Icono beneficios -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.567-3 3.5S10.343 15 12 15s3-1.567 3-3.5S13.657 8 12 8z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v2m0 16v2m8-10h2M2 12H0m16.95 6.95l1.414 1.414M4.636 4.636L3.222 3.222m13.728 0l-1.414 1.414M4.636 19.364l-1.414-1.414"/>
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-[#445822] mb-4">Beneficios clave</h3>
+      <ul class="list-disc list-inside text-stone-700 leading-relaxed space-y-2">
+        <li>Regulación natural del metabolismo</li>
+        <li>Mejora la salud cardiovascular</li>
+        <li>Fácil de usar, cómodo y discreto</li>
+        <li>Sostenible y respetuoso con el medio ambiente</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Galería de Imágenes -->
+<div class="mt-20 text-center">
+  <h3 class="text-3xl font-extrabold text-stone-900 mb-8">Imágenes</h3>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    
+    <!-- Imagen 1 -->
+    <div class="overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform">
+      <img src="img/foto2.png" alt="Foto 2 BioPatch Perú" class="w-full h-full object-cover" />
+    </div>
+
+    <!-- Imagen 2 -->
+    <div class="overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform">
+      <img src="img/foto3.png" alt="Foto 3 BioPatch Perú" class="w-full h-full object-cover" />
+    </div>
+
+    <!-- Imagen 3 -->
+    <div class="overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform">
+      <img src="img/foto4.png" alt="Foto 4 BioPatch Perú" class="w-full h-full object-cover" />
+    </div>
+
+    <!-- Imagen 4 -->
+    <div class="overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform">
+      <img src="img/foto5.png" alt="Foto 5 BioPatch Perú" class="w-full h-full object-cover" />
+    </div>
+
+    <!-- Imagen 5 -->
+    <div class="overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform">
+      <img src="img/foto6.png" alt="Foto 6 BioPatch Perú" class="w-full h-full object-cover" />
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Separador decorativo -->
+  <div class="mt-16">
+    <hr class="border-t-2 border-[#445822] w-1/2 mx-auto rounded-full opacity-30">
+  </div>
+</section>
+
+
+
+  <!-- QUE TE OFRECEMOS -->
+<section id="ofrece" class="max-w-7xl mx-auto px-6 py-16 pt-32 rounded-xl shadow-inner">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+    <!-- Columna Izquierda: Beneficios -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-[#2d3f20] mb-4 font-serif">Beneficios para tu salud</h2>
+      <div class="w-20 h-1 bg-[#445822] mb-8 rounded-full"></div>
+
+      <div class="border-2 border-[#92a974] bg-[#445822]/20 rounded-xl p-6 shadow-md hover:scale-[1.02] transition-transform">
+        <ul class="list-disc list-inside text-[#2d3f20] font-medium space-y-4 text-lg leading-relaxed">
+          <li>Apoyo natural para regular el metabolismo y reducir la grasa corporal</li>
+          <li>Mejora de parámetros cardiovasculares (presión arterial, colesterol, glucosa)</li>
+          <li>Reducción de la inflamación y el estrés oxidativo</li>
+          <li>Uso autónomo, sencillo y sin dolor</li>
+          <li>Producto premium, seguro y probado</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Columna Derecha: Incluye + Imagen -->
+    <div class="flex flex-col justify-between space-y-8 text-[#2d3f20]">
+
+      <div>
+        <h3 class="text-2xl font-bold mb-4 font-serif">INCLUYE:</h3>
+        <div class="space-y-4">
+          <div class="uppercase border-l-4 border-[#445822] pl-3 text-lg font-semibold bg-[#cfd6bc] py-2 rounded-md hover:bg-[#b8c2a0] transition-colors">Parche Premium</div>
+          <div class="uppercase border-l-4 border-[#445822] pl-3 text-lg font-semibold bg-[#cfd6bc] py-2 rounded-md hover:bg-[#b8c2a0] transition-colors">Folleto educativo sobre salud cardiovascular</div>
+          <div class="uppercase border-l-4 border-[#445822] pl-3 text-lg font-semibold bg-[#cfd6bc] py-2 rounded-md hover:bg-[#b8c2a0] transition-colors">Empaque biodegradable</div>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <img src="img/caja.png" alt="Empaque BioPatch Perú" class="rounded-xl w-[280px] shadow-2xl bg-[#dcd9c4] hover:scale-[1.05] transition-transform"
+          onerror="this.onerror=null;this.src='img/fallback.png';">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- ¿POR QUÉ ELEGIR BIOPATCH PERÚ? -->
+<section id="elegir" class="pt-32 py-16 px-6 bg-[#e6e8d3] rounded-lg">
+  <h2 class="text-4xl font-extrabold text-[#2d3f20] mb-12 text-center">¿Por qué elegir BioPatch Perú?</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+    
+    <!-- Columna izquierda -->
+    <div class="space-y-6">
+      <div class="border-l-4 border-[#445822] pl-4 text-lg font-semibold text-[#2d3f20] leading-relaxed bg-[#d1d7a7]/40 p-4 rounded-lg">
+        • Innovación peruana: Primer parche con extractos naturales peruanos para la salud metabólica y cardiovascular.
+      </div>
+      <div class="border-l-4 border-[#445822] pl-4 text-lg font-semibold text-[#2d3f20] leading-relaxed bg-[#d1d7a7]/40 p-4 rounded-lg">
+        • Calidad y sostenibilidad: Materiales premium, microagujas simuladas y empaque ecológico.
+      </div>
+      <div class="flex justify-center">
+        <img src="img/innovation.png" class="rounded-lg shadow-lg w-full max-w-xs">
+      </div>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="space-y-6">
+      <div class="border-l-4 border-[#445822] pl-4 text-lg font-semibold text-[#2d3f20] leading-relaxed bg-[#d1d7a7]/40 p-4 rounded-lg">
+        • Prevención y autocuidado: Ideal para quienes buscan alternativas naturales y efectivas sin depender constantemente de medicamentos.
+      </div>
+      <div class="border-l-4 border-[#445822] pl-4 text-lg font-semibold text-[#2d3f20] leading-relaxed bg-[#d1d7a7]/40 p-4 rounded-lg">
+        • Impacto social: Apoyas la biodiversidad peruana y la ciencia local.
+      </div>
+      <div class="border-l-4 border-[#445822] pl-4 text-lg font-semibold text-[#2d3f20] leading-relaxed bg-[#d1d7a7]/40 p-4 rounded-lg">
+        • Apoyo científico: Desarrollado con asesoría de universidades y laboratorios peruanos.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- ¿PARA QUIÉN ES? -->
+<section id="quien" class="max-w-7xl mx-auto px-6 py-16 pt-32 rounded-xl shadow-inner">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+    <!-- Columna Izquierda: Público objetivo -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-[#2d3f20] mb-4 font-serif">Nuestro público principal son:</h2>
+      <div class="w-20 h-1 bg-[#445822] mb-8 rounded-full"></div>
+
+      <div class="border-2 border-[#92a974] bg-[#445822]/20 rounded-xl p-6 shadow-md hover:scale-[1.02] transition-transform">
+        <ul class="list-disc list-inside text-[#2d3f20] font-medium space-y-4 text-lg leading-relaxed">
+          <li>Personas con riesgo cardiovascular que buscan mejorar su salud de manera natural y autónoma.</li>
+          <li>Familias interesadas en prevención y bienestar.</li>
+          <li>Comunidades urbanas y rurales con acceso limitado a soluciones médicas.</li>
+          <li>Cualquier persona que quiera complementar su estilo de vida saludable.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Columna Derecha: Imágenes -->
+    <div class="grid grid-cols-2 gap-4">
+      <img src="img/1.png" class="rounded-xl shadow-lg w-full h-48 object-cover hover:scale-105 transition-transform" onerror="this.onerror=null;this.src='img/fallback.png';">
+      <img src="img/2.png" class="rounded-xl shadow-lg w-full h-48 object-cover hover:scale-105 transition-transform" onerror="this.onerror=null;this.src='img/fallback.png';">
+      <img src="img/3.png" class="rounded-xl shadow-lg w-full h-48 object-cover hover:scale-105 transition-transform" onerror="this.onerror=null;this.src='img/fallback.png';">
+      <img src="img/4.png" class="rounded-xl shadow-lg w-full h-48 object-cover hover:scale-105 transition-transform" onerror="this.onerror=null;this.src='img/fallback.png';">
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
